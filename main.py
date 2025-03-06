@@ -1,4 +1,8 @@
-from flask import Flask, request, jsonify
+from config import OPENAI_API_KEY, GOOGLE_API_KEY
+
+# अब API Key को Secure तरीके से Access कर सकते हैं
+print(f"Using OpenAI API Key: {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[:5]}*****")  # Testing Purpose
+print(f"Using Google API Key: {AIzaSyDhvhsrovwsCiC6f8oTUU50GDbqByK04Lo[:5]}*****")  # Testing Purposefrom flask import Flask, request, jsonify
 import requests
 import os
 import pyttsx3
