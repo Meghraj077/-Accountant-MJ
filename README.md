@@ -1,1 +1,1 @@
-# -Accountant-MJ
+# Accountant-MJ
