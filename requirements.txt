@@ -1,0 +1,5 @@
+flask
+termux-api
+requests
+speechrecognition
+pyaudio

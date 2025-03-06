@@ -1,0 +1,26 @@
+nohup: ignoring input
+ * Serving Flask app 'main'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.92:5000
+[33mPress CTRL+C to quit[0m
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5205:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5205:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5205:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5728:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/pcm/pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM default
+aplay: main:850: audio open error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5205:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5205:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5205:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5728:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/pcm/pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM default
+aplay: main:850: audio open error: No such file or directory

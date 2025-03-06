@@ -1,0 +1,477 @@
+### 🖥️ SYSTEM INFO ###
+Linux localhost 5.15.149-android13-8-00012-gcf6f1ecbbd00-ab12196338 #1 SMP PREEMPT Wed Aug 7 11:19:53 UTC 2024 aarch64 Android
+
+### 📦 INSTALLED PACKAGES ###
+abseil-cpp					install
+alsa-lib					install
+alsa-utils					install
+android-tools					install
+apr						install
+apr-util					install
+apt						install
+attr						install
+autoconf					install
+bash						install
+binutils					install
+binutils-bin					install
+binutils-libs					install
+bison						install
+brotli						install
+bzip2						install
+c-ares						install
+ca-certificates					install
+clang						install
+cmake						install
+command-not-found				install
+coreutils					install
+curl						install
+dash						install
+dbus						install
+debianutils					install
+dialog						install
+diffutils					install
+dos2unix					install
+dpkg						install
+ed						install
+espeak						install
+fdupes						install
+ffmpeg						install
+fftw						install
+file						install
+findutils					install
+fontconfig					install
+freetype					install
+fribidi						install
+game-music-emu					install
+gawk						install
+gdbm						install
+gdk-pixbuf					install
+ghostscript					install
+giflib						install
+git						install
+glib						install
+gpgv						install
+grep						install
+gzip						install
+harfbuzz					install
+imagemagick					install
+imath						install
+imlib2						install
+inetutils					install
+jack						install
+jack2						install
+jbig2dec					install
+jq						install
+jsoncpp						install
+krb5						install
+ldns						install
+leptonica					install
+less						install
+libandroid-execinfo				install
+libandroid-glob					install
+libandroid-posix-semaphore			install
+libandroid-selinux				install
+libandroid-shmem				install
+libandroid-spawn				install
+libandroid-support				install
+libandroid-sysv-semaphore			install
+libandroid-utimes				install
+libao						install
+libaom						install
+libarchive					install
+libass						install
+libassuan					install
+libbluray					install
+libbz2						install
+libc++						install
+libcaca						install
+libcairo					install
+libcap						install
+libcap-ng					install
+libcompiler-rt					install
+libcrypt					install
+libcurl						install
+libdav1d					install
+libdb						install
+libde265					install
+libedit						install
+libevent					install
+libexpat					install
+libffi						install
+libflac						install
+libgcrypt					install
+libgd						install
+libgmp						install
+libgnutls					install
+libgpg-error					install
+libgraphite					install
+libgrpc						install
+libheif						install
+libiconv					install
+libicu						install
+libid3tag					install
+libidn						install
+libidn2						install
+libjasper					install
+libjpeg-turbo					install
+libjxl						install
+libllvm						install
+libltdl						install
+liblua52					install
+liblz4						install
+liblzma						install
+liblzo						install
+libmad						install
+libmd						install
+libmp3lame					install
+libmpfr						install
+libnettle					install
+libnghttp2					install
+libnghttp3					install
+libnpth						install
+libogg						install
+libopencore-amr					install
+libopenmpt					install
+libopus						install
+libpcap						install
+libpixman					install
+libplacebo					install
+libpng						install
+libpopt						install
+libprotobuf					install
+librav1e					install
+libraw						install
+libre2						install
+libresolv-wrapper				install
+librsvg						install
+libsamplerate					install
+libsixel					install
+libsmartcols					install
+libsndfile					install
+libsoxr						install
+libsqlite					install
+libsrt						install
+libssh						install
+libssh2						install
+libtalloc					install
+libtheora					install
+libtiff						install
+libtirpc					install
+libtool						install
+libuchardet					install
+libudfread					install
+libunbound					install
+libunistring					install
+libuuid						install
+libuv						install
+libv4l						install
+libvidstab					install
+libvmaf						install
+libvo-amrwbenc					install
+libvorbis					install
+libvpx						install
+libwebp						install
+libwebrtc-audio-processing			install
+libx11						install
+libx264						install
+libx265						install
+libxau						install
+libxcb						install
+libxdmcp					install
+libxext						install
+libxft						install
+libxml2						install
+libxrender					install
+libxslt						install
+libyaml						install
+libzimg						install
+littlecms					install
+lld						install
+llvm						install
+lsof						install
+m4						install
+make						install
+mlocate						install
+mpg123						install
+mpv						install
+nano						install
+ncurses						install
+ncurses-ui-libs					install
+ncurses-utils					install
+ndk-sysroot					install
+net-tools					install
+ninja						install
+nodejs						install
+ocl-icd						install
+oniguruma					install
+openal-soft					install
+openexr						install
+openjpeg					install
+openssh						install
+openssh-sftp-server				install
+openssl						install
+openssl-tool					install
+opusfile					install
+pandoc						install
+pango						install
+patch						install
+patchelf					install
+pcaudiolib					install
+pcre2						install
+perl						install
+pkg-config					install
+portaudio					install
+postgresql					install
+procps						install
+proot						install
+proot-distro					install
+protobuf					install
+psmisc						install
+pulseaudio					install
+python						install
+python-ensurepip-wheels				install
+python-pip					install
+readline					install
+resolv-conf					install
+rhash						install
+rsync						install
+rubberband					install
+ruby						install
+runit						install
+rust						install
+rust-std-aarch64-linux-android			install
+sed						install
+sox						install
+speexdsp					install
+svt-av1						install
+tar						install
+termux-am					install
+termux-am-socket				install
+termux-api					install
+termux-auth					install
+termux-elf-cleaner				install
+termux-exec					install
+termux-keyring					install
+termux-licenses					install
+termux-services					install
+termux-tools					install
+tesseract					install
+tsu						install
+ttf-dejavu					install
+tur-repo					install
+unzip						install
+util-linux					install
+vim						install
+wget						install
+which						install
+x11-repo					install
+xvidcore					install
+xxd						install
+xxhash						install
+xz-utils					install
+zip						install
+zlib						install
+zsh						install
+zsh-completions					install
+zstd						install
+
+### 📁 DIRECTORY STRUCTURE ###
+total 9.9M
+drwx------. 20 u0_a436 u0_a436 4.0K Mar  4 23:43 .
+drwxrwx--x.  4 u0_a436 u0_a436 3.4K Mar  2 21:31 ..
+drwx------.  2 u0_a436 u0_a436 3.4K Mar  4 21:09 .android
+-rw-------.  1 u0_a436 u0_a436  19K Mar  4 23:16 .bash_history
+-rw-------.  1 u0_a436 u0_a436  122 Mar  4 14:51 .bashrc
+drwx------.  3 u0_a436 u0_a436 3.4K Mar  2 22:05 .bundle
+drwx------.  4 u0_a436 u0_a436 3.4K Mar  2 22:04 .cache
+drwx------.  3 u0_a436 u0_a436 3.4K Mar  3 12:10 .cargo
+drwx------.  5 u0_a436 u0_a436 3.4K Mar  4 02:25 .config
+-rw-------.  1 u0_a436 u0_a436  102 Mar  4 00:58 .gitconfig
+drwx------.  3 u0_a436 u0_a436 3.4K Mar  2 22:04 .local
+drwx------.  2 u0_a436 u0_a436 3.4K Mar  4 22:43 .magick
+drwx------. 12 u0_a436 u0_a436 3.4K Mar  2 22:39 .msf4
+drwx------.  2 u0_a436 u0_a436 3.4K Mar  3 20:14 .mytools
+drwx------.  2 u0_a436 u0_a436 3.4K Mar  3 14:14 .ngrok2
+drwxr-xr-x.  4 u0_a436 u0_a436 3.4K Mar  3 15:10 .npm
+-rw-------.  1 u0_a436 u0_a436   24 Mar  3 00:50 .npmrc
+drwx------. 13 u0_a436 u0_a436 3.4K Mar  3 07:54 .oh-my-zsh
+-rw-------.  1 u0_a436 u0_a436   38 Mar  4 14:51 .profile
+-rw-------.  1 u0_a436 u0_a436  409 Mar  3 21:33 .python_history
+-rw-------.  1 u0_a436 u0_a436   41 Mar  2 21:49 .shell.pre-oh-my-zsh
+drwx------.  2 u0_a436 u0_a436 3.4K Mar  4 00:58 .ssh
+drwx------.  3 u0_a436 u0_a436 3.4K Mar  3 12:19 .suroot
+drwx------.  2 u0_a436 u0_a436 3.4K Mar  3 20:01 .termux
+-rw-------.  1 u0_a436 u0_a436  169 Mar  3 19:07 .wget-hsts
+-rw-------.  1 u0_a436 u0_a436  54K Mar  3 08:19 .zcompdump-localhost-5.9
+-r--------.  1 u0_a436 u0_a436 128K Mar  3 08:19 .zcompdump-localhost-5.9.zwc
+-rw-------.  1 u0_a436 u0_a436 4.3K Mar  3 10:47 .zsh_history
+-rw-------.  1 u0_a436 u0_a436  132 Mar  3 20:20 .zshrc
+-rw-------.  1 u0_a436 u0_a436 4.0K Mar  2 21:49 .zshrc.pre-oh-my-zsh
+drwx------.  4 u0_a436 u0_a436 3.4K Mar  4 21:38 Accountant-MJ
+drwx------.  2 u0_a436 u0_a436 3.4K Mar  3 21:39 __pycache__
+-rw-------.  1 u0_a436 u0_a436 3.9K Mar  3 22:01 app.py
+-rw-------.  1 u0_a436 u0_a436  107 Mar  4 14:52 chatbot.log
+-rw-------.  1 u0_a436 u0_a436    0 Mar  4 21:36 dmesg_logs.txt
+-rw-------.  1 u0_a436 u0_a436  12K Mar  4 21:36 error_logs.txt
+-rw-------.  1 u0_a436 u0_a436  13K Mar  4 21:36 error_status.json
+-rw-------.  1 u0_a436 u0_a436  13K Mar  4 21:37 error_status.pdf
+-rw-------.  1 u0_a436 u0_a436  115 Mar  4 14:52 finance.log
+lrwxrwxrwx.  1 u0_a436 u0_a436   38 Mar  4 22:14 gs -> /data/data/com.termux/files/usr/bin/gs
+-rw-------.  1 u0_a436 u0_a436 3.4K Mar  4 21:36 home_files.txt
+-rw-------.  1 u0_a436 u0_a436  71K Mar  4 23:25 installed_packages-0.png
+-rw-------.  1 u0_a436 u0_a436  76K Mar  4 23:25 installed_packages-1.png
+-rw-------.  1 u0_a436 u0_a436  29K Mar  4 23:25 installed_packages-10.png
+-rw-------.  1 u0_a436 u0_a436  82K Mar  4 23:25 installed_packages-2.png
+-rw-------.  1 u0_a436 u0_a436  77K Mar  4 23:25 installed_packages-3.png
+-rw-------.  1 u0_a436 u0_a436  77K Mar  4 23:25 installed_packages-4.png
+-rw-------.  1 u0_a436 u0_a436  76K Mar  4 23:25 installed_packages-5.png
+-rw-------.  1 u0_a436 u0_a436  77K Mar  4 23:25 installed_packages-6.png
+-rw-------.  1 u0_a436 u0_a436  79K Mar  4 23:25 installed_packages-7.png
+-rw-------.  1 u0_a436 u0_a436  77K Mar  4 23:25 installed_packages-8.png
+-rw-------.  1 u0_a436 u0_a436  77K Mar  4 23:25 installed_packages-9.png
+-rw-------.  1 u0_a436 u0_a436 5.7K Mar  4 21:36 installed_packages.json
+-rw-------.  1 u0_a436 u0_a436 6.6K Mar  4 22:43 installed_packages.pdf
+-rw-------.  1 u0_a436 u0_a436 5.8K Mar  4 22:43 installed_packages.txt
+-rw-------.  1 u0_a436 u0_a436 6.2K Mar  4 22:02 installed_packages_fixed.pdf
+-rw-------.  1 u0_a436 u0_a436  13K Mar  3 22:40 installed_tools_backup.txt
+-rw-------.  1 u0_a436 u0_a436 9.1K Mar  4 21:36 large_files.txt
+-rw-------.  1 u0_a436 u0_a436  104 Mar  4 14:52 main.log
+-rw-------.  1 u0_a436 u0_a436  111 Mar  4 14:52 ocr.log
+drwx------.  2 u0_a436 u0_a436 3.4K Mar  4 22:42 storage
+-rw-------.  1 u0_a436 u0_a436  14K Mar  4 21:36 storage_info.json
+-rw-------.  1 u0_a436 u0_a436  14K Mar  4 21:37 storage_info.pdf
+-rw-------.  1 u0_a436 u0_a436  107 Mar  4 14:52 tax_api.log
+-rw-------.  1 u0_a436 u0_a436 8.3K Mar  4 21:36 termux_logs.txt
+-rw-------.  1 u0_a436 u0_a436  721 Mar  4 21:36 termux_processes.txt
+-rw-------.  1 u0_a436 u0_a436 9.5K Mar  4 21:36 termux_services.json
+-rw-------.  1 u0_a436 u0_a436 9.5K Mar  4 21:37 termux_services.pdf
+-rw-------.  1 u0_a436 u0_a436 6.0K Mar  4 23:47 termux_system_info.txt
+-rw-------.  1 u0_a436 u0_a436 8.6M Mar  3 22:09 test.mp3
+-rw-------.  1 u0_a436 u0_a436  117 Mar  4 14:52 voice.log
+
+### 🔍 STORAGE INFO ###
+Filesystem        Size Used Avail Use% Mounted on
+/dev/block/dm-28  2.9G 2.9G     0 100% /
+tmpfs             3.6G 3.2M  3.6G   1% /dev
+tmpfs             3.6G    0  3.6G   0% /mnt
+/dev/block/dm-29  1.9G 1.9G     0 100% /vendor
+/dev/block/dm-34  8.0K 8.0K     0 100% /vendor/vgc
+/dev/block/dm-30  1.3G 1.3G     0 100% /product
+/dev/block/dm-31   29M  29M     0 100% /vendor_dlkm
+/dev/block/dm-32  8.0K 8.0K     0 100% /odm_dlkm
+/dev/block/dm-35   32K  32K     0 100% /oem
+/dev/block/dm-15  308M 308M     0 100% /system_ext
+tmpfs             3.6G  32K  3.6G   1% /apex
+/dev/block/loop9  232K 112K  116K  50% /apex/com.android.apex.cts.shim@1
+/dev/block/loop6  780K 748K   16K  98% /apex/com.android.tzdata@351010000
+/dev/block/loop4   82M  82M     0 100% /apex/com.android.virt@2
+/dev/block/loop8   40M  40M     0 100% /apex/com.android.vndk.v34@1
+/dev/block/loop7   38M  38M     0 100% /apex/com.android.i18n@1
+/dev/block/dm-57  3.7M 3.7M     0 100% /apex/com.android.os.statsd@350911020
+/dev/block/loop10 1.2M 1.1M  8.0K 100% /apex/com.android.rkpd@352090000
+/dev/block/loop5   29M  29M     0 100% /apex/com.android.btservices@352090000
+/dev/block/loop19 2.1M 2.0M     0 100% /apex/com.google.mainline.primary.libs@351061210
+/dev/block/loop14  39M  39M     0 100% /apex/com.android.vndk.v31@1
+/dev/block/loop17 3.1M 3.1M     0 100% /apex/com.android.compos@2
+/dev/block/loop12  45M  45M     0 100% /apex/com.android.vndk.v33@1
+/dev/block/dm-47   13M  13M     0 100% /apex/com.android.healthfitness@351016140
+/dev/block/loop15 5.6M 5.6M     0 100% /apex/com.android.devicelock@1
+/dev/block/loop18  12M  12M     0 100% /apex/com.android.runtime@1
+/dev/block/loop16 4.3M 4.3M     0 100% /apex/com.android.uwb@352090000
+/dev/block/dm-71  8.6M 8.6M     0 100% /apex/com.android.wifi@351010040
+/dev/block/dm-70   27M  27M     0 100% /apex/com.android.media.swcodec@350914020
+/dev/block/dm-68   27M  27M     0 100% /apex/com.android.mediaprovider@351013100
+/dev/block/dm-63  4.4M 4.4M     0 100% /apex/com.android.appsearch@351010020
+/dev/block/dm-69  8.5M 8.4M     0 100% /apex/com.android.adbd@351010000
+/dev/block/dm-66  6.5M 6.4M     0 100% /apex/com.android.conscrypt@351010000
+/dev/block/dm-48  628K 600K   16K  98% /apex/com.android.configinfrastructure@351010000
+/dev/block/dm-50  6.1M 6.1M     0 100% /apex/com.android.extservices@350912023
+/dev/block/dm-58  6.7M 6.6M     0 100% /apex/com.android.media@350914000
+/dev/block/loop30 596K 568K   16K  98% /apex/com.android.profiling@352090000
+/dev/block/dm-54   22M  21M     0 100% /apex/com.android.adservices@351017080
+/dev/block/dm-45  7.6M 7.6M     0 100% /apex/com.android.neuralnetworks@351010000
+/dev/block/dm-44   18M  18M     0 100% /apex/com.android.cellbroadcast@351011020
+/dev/block/dm-51   41M  41M     0 100% /apex/com.android.art@351011440
+/dev/block/dm-38  768K 740K   16K  98% /apex/com.android.sdkext@350910000
+/dev/block/dm-46  832K 804K   12K  99% /apex/com.android.ipsec@351010000
+/dev/block/dm-42   23M  23M     0 100% /apex/com.android.permission@351014000
+/dev/block/dm-43   13M  13M     0 100% /apex/com.android.ondevicepersonalization@351020000
+/dev/block/dm-40  4.0M 4.0M     0 100% /apex/com.android.resolv@351011000
+/dev/block/dm-37   22M  22M     0 100% /apex/com.android.tethering@351010220
+/dev/block/dm-39  232K 104K  124K  46% /apex/com.android.scheduling@351010000
+tmpfs             3.6G 4.0K  3.6G   1% /bootstrap-apex
+/dev/block/loop3  780K 748K   16K  98% /bootstrap-apex/com.android.tzdata@351010000
+/dev/block/loop2   38M  38M     0 100% /bootstrap-apex/com.android.i18n@1
+/dev/block/loop0   12M  12M     0 100% /bootstrap-apex/com.android.runtime@1
+/dev/block/loop1   45M  45M     0 100% /bootstrap-apex/com.android.vndk.v33@1
+tmpfs             3.6G    0  3.6G   0% /tmp
+/dev/block/sdc96  224M  15M  201M   7% /logdata
+/dev/block/dm-74  283M 283M     0 100% /system/dyn
+/dev/fuse         107G  42G   64G  40% /storage/emulated
+
+### 🔌 NETWORK INFO (Limited Output) ###
+
+### ⚙️ RUNNING PROCESSES ###
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+u0_a436   6487  0.0  0.0 10831196 2868 ?       S<    1970   0:00 /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/var/service
+u0_a436   6488  0.0  0.0 10849612 2896 ?       S<    1970   0:00 runsv postgres
+u0_a436   6489  0.0  0.0 10806604 2904 ?       S<    1970   0:00 runsv sshd
+u0_a436   6490  0.0  0.0 10845516 2860 ?       S<    1970   0:00 runsv ssh-agent
+u0_a436   6492  0.0  0.0 10804564 3004 ?       S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/postgres
+u0_a436   6493  0.0  0.0 10835284 2892 ?       S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/sshd
+u0_a436   6494  0.0  0.0 10857812 2908 ?       S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/ssh-agent
+u0_a436  15564  0.0  0.0 10828660 4664 pts/0   S<s   1970   0:00 /data/data/com.termux/files/usr/bin/bash -l
+u0_a436  17652  1.0  0.0 10828660 1900 pts/0   S<+   1970   0:00 /data/data/com.termux/files/usr/bin/bash -l
+u0_a436  17661  2.0  0.0 10820816 3748 pts/0   R<+   1970   0:00 ps aux
+
+### ⚠️ LAST ERRORS ###
+ckear
+clear
+pkg install ghostscript -y
+mkdir -p ~/.magick
+echo '<?xml version="1.0" encoding="UTF-8"?><policymap><policy domain="coder" rights="read|write"/></policymap>' > ~/.magick/policy.xml
+magick -density 300 installed_packages.pdf -quality 100 installed_packages.png
+ls -lh installed_packages.png
+magick -density 300 installed_packages.pdf -quality 100 installed_packages.png
+ls -lh installed_packages.png
+clear
+mkdir -p ~/.magick
+echo '<?xml version="1.0" encoding="UTF-8"?>
+<policymap>
+  <policy domain="coder" rights="read|write"/>
+</policymap>' > ~/.magick/policy.xml
+exit
+jq '.' installed_packages.json > installed_packages.pdf
+exit
+cd -
+ckear
+clear
+pkg reinstall imagemagick -y
+pkg reinstall ghostscript -y
+magick convert -density 300 installed_packages.pdf -quality 100 installed_packages.png
+magick installed_packages.pdf installed_packages.png
+ckear
+clear
+ls -lh installed_packages.png
+mkdir -p ~/.magick
+echo '<?xml version="1.0" encoding="UTF-8"?>
+<policymap>
+  <policy domain="coder" rights="read|write"/>
+  <policy domain="path" rights="read|write"/>
+</policymap>' > ~/.magick/policy.xml
+exit
+cd -
+clear
+pkg uninstall imagemagick ghostscript -y
+pkg install imagemagick ghostscript -y
+ls -lh installed_packages.png
+clear
+which magick
+which gs
+mkdir -p ~/.magick
+echo '<?xml version="1.0" encoding="UTF-8"?>
+<policymap>
+  <policy domain="coder" rights="read|write"/>
+  <policy domain="path" rights="read|write"/>
+</policymap>' > ~/.magick/policy.xml
+exit

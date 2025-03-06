@@ -1,0 +1,6 @@
+u0_a436   2232  0.1  0.0 10849140 4664 pts/0   S<s   1970   0:00 /data/data/com.termux/files/usr/bin/bash -l
+u0_a436   2877  1.0  0.0  75516  1356 pts/0    R<+   1970   0:00 grep termux
+u0_a436  31538  0.0  0.0 10831196 2856 ?       S<    1970   0:01 /data/data/com.termux/files/usr/bin/runsvdir /data/data/com.termux/files/usr/var/service
+u0_a436  31544  0.0  0.0 10853716 2912 ?       S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/sshd
+u0_a436  31548  0.0  0.0 10818900 2904 ?       S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/ssh-agent
+u0_a436  31549  0.0  0.0 10845524 2848 ?       S<    1970   0:00 svlogd -tt /data/data/com.termux/files/usr/var/log/sv/postgres
