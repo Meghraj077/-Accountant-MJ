@@ -1,18 +1,18 @@
-from config import OPENAI_API_KEY, GOOGLE_API_KEY
-
-# अब API Key को Secure तरीके से Access कर सकते हैं
-print(f"Using OpenAI API Key: {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[:5]}*****")  # Testing Purpose
-print(f"Using Google API Key: {AIzaSyDhvhsrovwsCiC6f8oTUU50GDbqByK04Lo[:5]}*****")  # Testing Purposefrom flask import Flask, request, jsonify
-import requests
+from flask import Flask, request, jsonify
 import os
 import pyttsx3
-import speech_recognition as sr  # Voice Command Support
-import json  # Self-Coding Support
+import speech_recognition as sr
+import json
+import openai
+from dotenv import load_dotenv
+
+# ✅ Load API Key Securely (No Hardcoded API Key)
+load_dotenv()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+openai.api_key = OPENAI_API_KEY
 
 app = Flask(__name__)
-
-# ✅ Auto-Detect API Key (No Manual Entry Needed)
-API_KEY = os.getenv("MJ_API_KEY", "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")  # 🔹 Secure API Key
 
 # ✅ AI Voice Assistant - Text-to-Speech (TTS)
 try:
@@ -23,17 +23,21 @@ except:
     print("TTS Not Supported in Termux!")
 
 # ✅ Self-Healing & Auto-Fix System
-def check_system_health():
-    return {"status": "Running", "message": "System is Healthy"}
-
-# ✅ Self-Coding & Auto-Update System
-def update_code(new_code):
+def self_healing(code):
     try:
-        with open(__file__, "w") as f:
-            f.write(new_code)
-        return {"status": "Success", "message": "Code Updated Successfully!"}
+        exec(code)
     except Exception as e:
-        return {"status": "Error", "message": str(e)}
+        print(f"Error detected: {e}")
+        fix_code = openai.ChatCompletion.create(
+            model="gpt-4",
+            messages=[
+                {"role": "system", "content": "Fix the given Python code."},
+                {"role": "user", "content": f"Fix this code: {code}"}
+            ]
+        )
+        new_code = fix_code['choices'][0]['message']['content']
+        print("Fixed Code:\n", new_code)
+        exec(new_code)
 
 # ✅ AI-Based Accounting Automation (GST Calculation)
 def calculate_gst(amount):
@@ -58,13 +62,27 @@ def listen_voice_command():
         print("Listening...")
         recognizer.adjust_for_ambient_noise(source)
         audio = recognizer.listen(source)
-    
+
     try:
         command = recognizer.recognize_google(audio).lower()
         print(f"User Said: {command}")
         return {"status": "Success", "command": command}
     except Exception as e:
         return {"status": "Error", "message": str(e)}
+
+# ✅ Self-Coding & Feature Addition
+def add_new_feature(prompt):
+    new_code = openai.ChatCompletion.create(
+        model="gpt-4",
+        messages=[
+            {"role": "system", "content": "Generate Python code for this feature."},
+            {"role": "user", "content": f"Write code for: {prompt}"}
+        ]
+    )
+    generated_code = new_code['choices'][0]['message']['content']
+    print("New Feature Code:\n", generated_code)
+    with open("features.py", "a") as file:
+        file.write(f"\n# New Feature: {prompt}\n{generated_code}\n")
 
 # ✅ Flask API Routes
 @app.route("/", methods=["GET"])
@@ -73,12 +91,12 @@ def home():
 
 @app.route("/health", methods=["GET"])
 def health():
-    return jsonify(check_system_health())
+    return jsonify({"status": "Running", "message": "System is Healthy"})
 
 @app.route("/update", methods=["POST"])
 def update():
     data = request.get_json()
-    return jsonify(update_code(data["new_code"]))
+    return jsonify(self_healing(data["new_code"]))
 
 @app.route("/gst", methods=["POST"])
 def gst():
@@ -98,6 +116,12 @@ def phone():
 @app.route("/voice", methods=["GET"])
 def voice():
     return jsonify(listen_voice_command())
+
+@app.route("/add_feature", methods=["POST"])
+def add_feature():
+    data = request.get_json()
+    add_new_feature(data["feature"])
+    return jsonify({"status": "Success", "message": "Feature Added Successfully!"})
 
 # ✅ Start Flask Server
 if __name__ == "__main__":

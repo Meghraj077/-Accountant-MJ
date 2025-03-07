@@ -1,1 +1,4 @@
-python: can't open file '/data/data/com.termux/files/home/main.py': [Errno 2] No such file or directory
+ * Serving Flask app 'main'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.

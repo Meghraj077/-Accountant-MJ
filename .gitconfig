@@ -1,0 +1,7 @@
+[credential]
+	helper = store
+[url "ssh://git@ssh.github.com:443/"]
+	insteadOf = ssh://git@github.com/
+[user]
+	name = Meghraj
+	email = your-email@example.com

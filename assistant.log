@@ -1,0 +1,5 @@
+Enter Task: Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/Accountant-MJ/personal_assistant.py", line 21, in <module>
+    task = input("Enter Task: ")
+           ^^^^^^^^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
